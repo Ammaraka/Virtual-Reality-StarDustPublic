@@ -37,9 +37,10 @@ if (!$_SESSION[USERID]) header("Location: index.php?page=Home");
 					<ul>
 						<li>No virutal servers, real server hardware!</li>
 						<li>Only running two 256x256 regions per core!</li>
-						<li>Varible Regions (sims can be many sizes, not just 256</li>
-							<ul><li>64x64, 128x128, 256x256, 512x512</li></ul></li>
-						<li>Extra Estate Management Options
+						<li>Variable Regions (sims can be many sizes, not just 256</li>
+							<ul><li>2x2, 4x4, 8x8, 16x16, 32x32, 64x64, 128x128, 256x256, 512x512, 1024x124, 2048x2048</li></ul></li>
+							<ul><li><a href="http://varible_regions.php"> Click Here to learn more about Varible Regions </a></li></ul></li>
+						<li>Extra Region Management Options On Select Viewers Listed Below:
 							<ul>
 								<li>Default Draw Distance</li>
 								<li>Force Draw Distance</li>
@@ -52,7 +53,7 @@ if (!$_SESSION[USERID]) header("Location: index.php?page=Home");
 						<li>Latest opensource physics engine!</li>
 						<li>No purchase fee</li>
 						<li>No set up fee</li>
-						<li>Free condo in SL with purchases of 256 or larger region</li>
+						<li>Free condo with purchases of 512 or larger region</li>
 						<li>Daily roll back capabilites as far as 7 days</li>
 						<li>Unlimited renaminmg of sim</li>
 						<li>Three free moves</li>
@@ -61,7 +62,7 @@ if (!$_SESSION[USERID]) header("Location: index.php?page=Home");
 			</tr>
 			<tr>
 				<td colspan="2">
-					Note: Certain viewers are required for Islands larger than 256x256
+					Note: Certain viewers are required for Islands larger than 256x256. <a href="index.php?page=downloads"> Click Here For Comaptible Viewers </a> 
 				</td>
 			</tr>
 		</table>
