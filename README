@@ -1,23 +1,31 @@
 About StarDust
 - Offical Currency name is Dust
-- Startdust is a full featured Currency Module for Aurora-Sim
+- Startdust is a fully featured Currency Module for Aurora-Sim
 - It has only been tested in a grid configuration
 - Uses Paypal for all transactions
 - Uses a banking avatar where all purchases of currency come from
 - Integration in with Web UI
+- Integration with Joomla
 
 =============================================================
 DISCLAIMER/License Agreement - READ ME <<<<<<<<<<<<<<<<<<<<<<
 =============================================================
-By using this module you agree that Skidz Tweak, Aurora-Sim, or other contributing developers are in no way responsable for any damages that may occure as a result of using this module.
+By using this module you agree that Skidz Tweak, Aurora-Sim, Virtual Reality, or other contributing developers are in no way responsable for any damages that may occure as a result of using this module.
 By using this module you agree that you understand the risks of running this module and are fully willing to except those risks and any consequences that may occure.
 
 =============================================================
-BETA INFO
+WINDOWS BETA INFO
 =============================================================
 * This has only been tested with mysql
 * This has only been tested on Windows 32Bit
 * This has only been tested in a grid config
+
+=============================================================
+LINUX BETA INFO
+=============================================================
+* This has only been tested with mysql
+* This has only been tested on Ubuntu Server 10.04 10.10, 11.04, 11.10 64Bit
+* This has only been tested in a production grid or grid config
 
 =============================================================
 How to set up StarDust Currency with Paypal:
@@ -88,6 +96,25 @@ Setting up WebUI for StarDust
 	include('languages/additional/lang_en.php');
 4. Run the SQL files that start with "ZZ" against your WebUI Database to add menu items.
 5. If you wish to sell regions as well edit the "SAMPLE" sql file and run it.
+
+==============================================================
+Setting up Joomla for StarDust
+==============================================================
+
+1. Install Stardust on your Aurora-Sim instance like normal
+2. Run the Stardust WebUI “SQL” files in the same database as Aurora-Sim
+3. Login to your Joomla administrator page
+4. Go to “Extensions/Install/Uninstall”
+5. Under the section “Install from Directory” type in the follow folders
+6. mod_stardust
+7. mod_stardust_purchase
+8. mod_stardust_land
+9. Go to your arical manager under “Content/Artile Manager”
+10. Create a 3 new Articles, *Stardust Currency History, *Purchase Island, and *Purchase currency
+11. Add your articles as links in the main menu under “Menus/Main Menu”
+12. Go to “Extension/Modules”
+13. Locate the 3 modules and enable them, and fill out the paramaters. For details on the correct values for each of the paramaters please see Stardust documentation. Notification URLs, and Return URLs should be pointed to the page you made for stardust purchase currency page.
+14. If you have any questions, or concerns or you would like to contribute please feel free to contant me.
 
 ==============================================================
 Settings - Restrictions
